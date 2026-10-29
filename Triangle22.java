@@ -8,7 +8,7 @@ public class Triangle22 {
         System.out.print("Masukkan nilai n : ");
         int n = nad.nextInt();
 
-        int i = 1;
+        int i = 0;
         while (i <= n) {
             // System.out.print("[i=" + i + "] "); //debug semntara
             int j = 0;
