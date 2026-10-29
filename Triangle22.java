@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+public class Triangle22 {
+    public static void main(String[] args) {
+        Scanner nad = new Scanner(System.in);
+
+        System.out.print("Masukkan nilai n : ");
+        int n = nad.nextInt();
+
+        int i = 1;
+        while (i <= n) {
+            // System.out.print("[i=" + i + "] "); //debug semntara
+            int j = 0;
+            while (j < i) {
+                System.out.print("*");
+                j++;
+            }
+            System.out.println();
+            i++;
+
+        }
+       
+        }
+    }
+
