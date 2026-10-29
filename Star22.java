@@ -9,7 +9,7 @@ public class Star22 {
        int n = nad.nextInt();
 
        for (int i = 1; i <= n; i++) {
-        System.out.print(i + " ");
+        System.out.print("*");
        }
        System.out.println();
        nad.close();
